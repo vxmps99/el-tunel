@@ -1,0 +1,254 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+h1{
+    position: relative;
+    left: 800px;
+    top: 8px;
+  font-family: "Caveat", cursive;
+  font-size: 70px;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  color: #682300;
+}
+.busqueda{
+    position: relative;
+    bottom: 48px;
+    right: 40px;
+    height:1px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: center;
+}
+.si{
+    height: 32px;
+    width: 300px;
+    border: solid 1px #682300;
+    border-radius: 20px 0px 0px 20px;
+}
+.bi{
+    height: 32px;
+    width: 48px;
+}
+.nav{
+    background-color: #B69A76;
+    display: flex;
+    justify-content: center;
+
+}
+li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 16px 80px;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  color: rgb(255, 255, 255);
+}
+.herocontain{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    width: 100vw;
+    height: 600px;
+}
+.heroimage{
+    width: 100vw;
+    height: 600px;
+}
+.herowrap{
+    position: absolute;
+    bottom: 250px;
+    width: 1000px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+.herot{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+      font-family: "EB Garamond", serif;
+      font-size: 60px;
+      font-optical-sizing: auto;
+      font-weight: 600;
+      font-style: normal;
+      color: rgb(255, 255, 255);
+    }
+.herop{
+    width: 100vh;
+    display:flex ;
+    justify-content: center;
+    font-family: "EB Garamond", serif;
+      font-size: 32px;
+      font-optical-sizing: auto;
+      font-weight: 300;
+      font-style: italic;
+      color: #ffffff;
+}
+.sub{
+    position: relative;
+    left: 32px;
+    top: 150px;
+    font-family: "Inter", sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    font-style: normal;
+    color: #8a1a06; 
+}
+.sub1{
+    position: relative;
+    left: 32px;
+    top: 150px;
+    font-family: "Inter", sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    font-style: normal;
+    color: #8a1a06; 
+}
+.sub3{
+    font-family: "Inter", sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    font-style: normal;
+    color: #8a1a06; 
+}
+#carrusel{
+    margin-top: 100px;
+    display: flex;
+    height: 500px; ;
+    justify-content: space-around;
+    align-items: center;
+}
+.librocarrusel{
+    width: 18vh;
+    height: 300px;
+}
+.imglibro{
+    width: 200px;
+    height: auto;
+}
+.descripcion{
+    display: flex;
+    flex-direction: column;
+    column-gap: 8px;
+    align-items: center;
+}
+.conocenos{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 200px;
+    margin-bottom: 100px;
+    width: 100vw;
+    height: auto;
+    margin-left: 48px;
+    justify-content: space-between;
+    row-gap: 10px;
+}
+.textoconoce{
+    width: 40vw;
+    height: auto;
+}
+.d4{
+    margin-top: 16px;
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    font-weight: 4000;
+    font-style: normal;
+}
+.rojo{
+    margin-top: 32px;
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    font-weight: 800;
+    font-style: normal;
+    color: #8a1a06;
+    position: relative;
+    left: 300px;
+}
+.libreria{
+    width: 30vw;
+    height: auto
+}
+.l{
+    width: 600px;
+    height: auto;
+}
+footer{
+    
+    background-color: #B69A76;
+}
+.footerwrap{
+    margin: 16px;
+    padding: 16px;
+    flex-wrap: wrap;
+    width: 100vw;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-content:center;
+}
+.footerdiv{
+    width: 30vw;
+}
+.footert{
+    width: 20vw;
+    height: auto;
+    margin-bottom: 8px;
+    border-bottom: solid 1px #ffffff;
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    font-style: normal;
+    color: #ffffff;
+}
+.footerbody{
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    font-style: normal;
+    color: #ffffff;
+}
+.Ver{
+    background: #8a1a06;
+    color:#ffffff;
+    border-radius: 2px;
+    width: 100px;
+}
+.mail{
+    margin-top: 16px;
+    width: 400px;
+    height: 32px;
+}
+.mailb{
+    width: 62px;
+    height: 38px;
+    background-color: #8a1a06;
+    color: #ffffff;
+}
+.terminos{
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+.contacto{
+    margin-top: 8px;
+    display: flex;
+    align-items: center;
+    gap:1vw;
+}
+.c{
+    width: 24px;
+    height: auto;
+}
+.redes{
+    margin-top: 16px;
+    width: 30vh;
+    display: flex;
+    justify-content: center;
+}
